@@ -3,11 +3,11 @@
 
 @implementation SmoothiesAppDelegate
 
-@synthesize window, viewController;
+@synthesize window, navigationController;
 
 - (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
 {
-	[self.window addSubview:self.viewController.view];
+	[self.window addSubview:self.navigationController.view];
 	[self.window makeKeyAndVisible];
 	return YES;
 }
@@ -15,7 +15,7 @@
 - (void)dealloc
 {
 	[window release];
-	[viewController release];
+	[navigationController release];
 	[super dealloc];
 }
 
