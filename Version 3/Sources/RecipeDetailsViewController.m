@@ -9,9 +9,9 @@
 - (void)viewDidLoad
 {
 	[super viewDidLoad];
-	self.title = recipe.name;
-	self.imageView.image = recipe.image;
-	self.instructionsTextView.text = recipe.instructions;
+	self.title = self.recipe.name;
+	self.imageView.image = self.recipe.image;
+	self.instructionsTextView.text = self.recipe.instructions;
 }
 
 - (void)viewDidUnload
