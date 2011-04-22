@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B30028B134D92A200B0BD5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B30028A134D92A200B0BD5A /* UIKit.framework */; };
+		7B30028D134D92A200B0BD5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B30028C134D92A200B0BD5A /* Foundation.framework */; };
+		7B30028F134D92A200B0BD5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B30028E134D92A200B0BD5A /* CoreGraphics.framework */; };
+		7B87AFA8134D9330003C8EA4 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B87AF9E134D9330003C8EA4 /* MainWindow.xib */; };
+		7B87AFAB134D9330003C8EA4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B87AFA2134D9330003C8EA4 /* main.m */; };
+		7B87AFAC134D9330003C8EA4 /* SmoothiesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B87AFA5134D9330003C8EA4 /* SmoothiesAppDelegate.m */; };
+		7B87AFAD134D9330003C8EA4 /* SmoothiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B87AFA7134D9330003C8EA4 /* SmoothiesViewController.m */; };
+		7B99B3F5135EC56500E4CA99 /* RecipeDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B99B3F3135EC56500E4CA99 /* RecipeDetailsViewController.m */; };
+		7B99B3F9135EC58100E4CA99 /* RecipeDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B99B3F8135EC58100E4CA99 /* RecipeDetailsViewController.xib */; };
+		7B99B41A135EE55700E4CA99 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B99B419135EE55600E4CA99 /* DataModel.m */; };
+		7B99B426135F077300E4CA99 /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B99B425135F077300E4CA99 /* FavoritesViewController.m */; };
+		7B99B442135F1FA900E4CA99 /* Smoothies Tab Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B99B440135F1FA900E4CA99 /* Smoothies Tab Bar.png */; };
+		7B99B443135F1FA900E4CA99 /* Smoothies Tab Bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B99B441135F1FA900E4CA99 /* Smoothies Tab Bar@2x.png */; };
+		7BB39523134FB7760067AB46 /* Green Smoothie.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB39522134FB7760067AB46 /* Green Smoothie.png */; };
+		7BCB7D0B135B1F49007C504E /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BCB7D04135B1F49007C504E /* Icon-72.png */; };
+		7BCB7D0C135B1F49007C504E /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BCB7D05135B1F49007C504E /* Icon-Small-50.png */; };
+		7BCB7D0D135B1F49007C504E /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BCB7D06135B1F49007C504E /* Icon-Small.png */; };
+		7BCB7D0E135B1F49007C504E /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BCB7D07135B1F49007C504E /* Icon-Small@2x.png */; };
+		7BCB7D0F135B1F49007C504E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BCB7D08135B1F49007C504E /* Icon.png */; };
+		7BCB7D10135B1F49007C504E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BCB7D09135B1F49007C504E /* Icon@2x.png */; };
+		7BCB7D11135B1F49007C504E /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 7BCB7D0A135B1F49007C504E /* iTunesArtwork */; };
+		7BFCE84F134E4F5900A69993 /* Recipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BFCE84E134E4F5900A69993 /* Recipe.m */; };
+		7BFCE853134E5E5000A69993 /* Banana Shake.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFCE851134E5E5000A69993 /* Banana Shake.png */; };
+		7BFCE854134E5E5000A69993 /* Raspberry-Blueberry.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BFCE852134E5E5000A69993 /* Raspberry-Blueberry.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7B300286134D92A200B0BD5A /* Smoothies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smoothies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B30028A134D92A200B0BD5A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7B30028C134D92A200B0BD5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7B30028E134D92A200B0BD5A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7B87AF9E134D9330003C8EA4 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		7B87AF9F134D9330003C8EA4 /* Smoothies-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Smoothies-Info.plist"; sourceTree = "<group>"; };
+		7B87AFA2134D9330003C8EA4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B87AFA3134D9330003C8EA4 /* Smoothies-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Smoothies-Prefix.pch"; sourceTree = "<group>"; };
+		7B87AFA4134D9330003C8EA4 /* SmoothiesAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothiesAppDelegate.h; sourceTree = "<group>"; };
+		7B87AFA5134D9330003C8EA4 /* SmoothiesAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothiesAppDelegate.m; sourceTree = "<group>"; };
+		7B87AFA6134D9330003C8EA4 /* SmoothiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothiesViewController.h; sourceTree = "<group>"; };
+		7B87AFA7134D9330003C8EA4 /* SmoothiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothiesViewController.m; sourceTree = "<group>"; };
+		7B99B3F2135EC56500E4CA99 /* RecipeDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeDetailsViewController.h; sourceTree = "<group>"; };
+		7B99B3F3135EC56500E4CA99 /* RecipeDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeDetailsViewController.m; sourceTree = "<group>"; };
+		7B99B3F8135EC58100E4CA99 /* RecipeDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeDetailsViewController.xib; sourceTree = "<group>"; };
+		7B99B418135EE55600E4CA99 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		7B99B419135EE55600E4CA99 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		7B99B424135F077300E4CA99 /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		7B99B425135F077300E4CA99 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		7B99B440135F1FA900E4CA99 /* Smoothies Tab Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Smoothies Tab Bar.png"; sourceTree = "<group>"; };
+		7B99B441135F1FA900E4CA99 /* Smoothies Tab Bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Smoothies Tab Bar@2x.png"; sourceTree = "<group>"; };
+		7BB39522134FB7760067AB46 /* Green Smoothie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Smoothie.png"; sourceTree = "<group>"; };
+		7BCB7D04135B1F49007C504E /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		7BCB7D05135B1F49007C504E /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		7BCB7D06135B1F49007C504E /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		7BCB7D07135B1F49007C504E /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		7BCB7D08135B1F49007C504E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		7BCB7D09135B1F49007C504E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		7BCB7D0A135B1F49007C504E /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		7BFCE84D134E4F5900A69993 /* Recipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Recipe.h; sourceTree = "<group>"; };
+		7BFCE84E134E4F5900A69993 /* Recipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Recipe.m; sourceTree = "<group>"; };
+		7BFCE851134E5E5000A69993 /* Banana Shake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Banana Shake.png"; sourceTree = "<group>"; };
+		7BFCE852134E5E5000A69993 /* Raspberry-Blueberry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Raspberry-Blueberry.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B300283134D92A200B0BD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B30028B134D92A200B0BD5A /* UIKit.framework in Frameworks */,
+				7B30028D134D92A200B0BD5A /* Foundation.framework in Frameworks */,
+				7B30028F134D92A200B0BD5A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B30027B134D92A100B0BD5A = {
+			isa = PBXGroup;
+			children = (
+				7B87AFA1134D9330003C8EA4 /* Sources */,
+				7B87AF9C134D9330003C8EA4 /* Images */,
+				7B87AF9D134D9330003C8EA4 /* Resources */,
+				7B300289134D92A200B0BD5A /* Frameworks */,
+				7B300287134D92A200B0BD5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B300287134D92A200B0BD5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B300286134D92A200B0BD5A /* Smoothies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B300289134D92A200B0BD5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B30028E134D92A200B0BD5A /* CoreGraphics.framework */,
+				7B30028C134D92A200B0BD5A /* Foundation.framework */,
+				7B30028A134D92A200B0BD5A /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B87AF9C134D9330003C8EA4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7BFCE851134E5E5000A69993 /* Banana Shake.png */,
+				7BB39522134FB7760067AB46 /* Green Smoothie.png */,
+				7BFCE852134E5E5000A69993 /* Raspberry-Blueberry.png */,
+				7BCB7D04135B1F49007C504E /* Icon-72.png */,
+				7BCB7D05135B1F49007C504E /* Icon-Small-50.png */,
+				7BCB7D06135B1F49007C504E /* Icon-Small.png */,
+				7BCB7D07135B1F49007C504E /* Icon-Small@2x.png */,
+				7BCB7D08135B1F49007C504E /* Icon.png */,
+				7BCB7D09135B1F49007C504E /* Icon@2x.png */,
+				7BCB7D0A135B1F49007C504E /* iTunesArtwork */,
+				7B99B440135F1FA900E4CA99 /* Smoothies Tab Bar.png */,
+				7B99B441135F1FA900E4CA99 /* Smoothies Tab Bar@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		7B87AF9D134D9330003C8EA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7B87AF9E134D9330003C8EA4 /* MainWindow.xib */,
+				7B99B3F8135EC58100E4CA99 /* RecipeDetailsViewController.xib */,
+				7B87AF9F134D9330003C8EA4 /* Smoothies-Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7B87AFA1134D9330003C8EA4 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				7B99B418135EE55600E4CA99 /* DataModel.h */,
+				7B99B419135EE55600E4CA99 /* DataModel.m */,
+				7B99B424135F077300E4CA99 /* FavoritesViewController.h */,
+				7B99B425135F077300E4CA99 /* FavoritesViewController.m */,
+				7B87AFA2134D9330003C8EA4 /* main.m */,
+				7B87AFA3134D9330003C8EA4 /* Smoothies-Prefix.pch */,
+				7B87AFA4134D9330003C8EA4 /* SmoothiesAppDelegate.h */,
+				7B87AFA5134D9330003C8EA4 /* SmoothiesAppDelegate.m */,
+				7B87AFA6134D9330003C8EA4 /* SmoothiesViewController.h */,
+				7B87AFA7134D9330003C8EA4 /* SmoothiesViewController.m */,
+				7BFCE84D134E4F5900A69993 /* Recipe.h */,
+				7BFCE84E134E4F5900A69993 /* Recipe.m */,
+				7B99B3F2135EC56500E4CA99 /* RecipeDetailsViewController.h */,
+				7B99B3F3135EC56500E4CA99 /* RecipeDetailsViewController.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B300285134D92A200B0BD5A /* Smoothies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B3002A7134D92A200B0BD5A /* Build configuration list for PBXNativeTarget "Smoothies" */;
+			buildPhases = (
+				7B300282134D92A200B0BD5A /* Sources */,
+				7B300283134D92A200B0BD5A /* Frameworks */,
+				7B300284134D92A200B0BD5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smoothies;
+			productName = Smoothies;
+			productReference = 7B300286134D92A200B0BD5A /* Smoothies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B30027D134D92A100B0BD5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Hollance;
+			};
+			buildConfigurationList = 7B300280134D92A100B0BD5A /* Build configuration list for PBXProject "Smoothies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7B30027B134D92A100B0BD5A;
+			productRefGroup = 7B300287134D92A200B0BD5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B300285134D92A200B0BD5A /* Smoothies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B300284134D92A200B0BD5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B87AFA8134D9330003C8EA4 /* MainWindow.xib in Resources */,
+				7BFCE853134E5E5000A69993 /* Banana Shake.png in Resources */,
+				7BFCE854134E5E5000A69993 /* Raspberry-Blueberry.png in Resources */,
+				7BB39523134FB7760067AB46 /* Green Smoothie.png in Resources */,
+				7BCB7D0B135B1F49007C504E /* Icon-72.png in Resources */,
+				7BCB7D0C135B1F49007C504E /* Icon-Small-50.png in Resources */,
+				7BCB7D0D135B1F49007C504E /* Icon-Small.png in Resources */,
+				7BCB7D0E135B1F49007C504E /* Icon-Small@2x.png in Resources */,
+				7BCB7D0F135B1F49007C504E /* Icon.png in Resources */,
+				7BCB7D10135B1F49007C504E /* Icon@2x.png in Resources */,
+				7BCB7D11135B1F49007C504E /* iTunesArtwork in Resources */,
+				7B99B3F9135EC58100E4CA99 /* RecipeDetailsViewController.xib in Resources */,
+				7B99B442135F1FA900E4CA99 /* Smoothies Tab Bar.png in Resources */,
+				7B99B443135F1FA900E4CA99 /* Smoothies Tab Bar@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B300282134D92A200B0BD5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B87AFAB134D9330003C8EA4 /* main.m in Sources */,
+				7B87AFAC134D9330003C8EA4 /* SmoothiesAppDelegate.m in Sources */,
+				7B87AFAD134D9330003C8EA4 /* SmoothiesViewController.m in Sources */,
+				7BFCE84F134E4F5900A69993 /* Recipe.m in Sources */,
+				7B99B3F5135EC56500E4CA99 /* RecipeDetailsViewController.m in Sources */,
+				7B99B41A135EE55700E4CA99 /* DataModel.m in Sources */,
+				7B99B426135F077300E4CA99 /* FavoritesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7B3002A5134D92A200B0BD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B3002A6134D92A200B0BD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		7B3002A8134D92A200B0BD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sources/Smoothies-Prefix.pch";
+				INFOPLIST_FILE = "Resources/Smoothies-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7B3002A9134D92A200B0BD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sources/Smoothies-Prefix.pch";
+				INFOPLIST_FILE = "Resources/Smoothies-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B300280134D92A100B0BD5A /* Build configuration list for PBXProject "Smoothies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B3002A5134D92A200B0BD5A /* Debug */,
+				7B3002A6134D92A200B0BD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B3002A7134D92A200B0BD5A /* Build configuration list for PBXNativeTarget "Smoothies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B3002A8134D92A200B0BD5A /* Debug */,
+				7B3002A9134D92A200B0BD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B30027D134D92A100B0BD5A /* Project object */;
+}
