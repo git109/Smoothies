@@ -115,7 +115,7 @@ NSString* const FavoritesChangedNotification = @"Smoothies-FavoritesChanged";
 	// Sort the list by recipe name
 	[self.favorites sortUsingSelector:@selector(localizedCaseInsensitiveCompare:)];
 
-	[[NSUserDefaults standardUserDefaults] setObject:self.favorites forKey:@"Favorites"];
+	[[NSUserDefaults standardUserDefaults] setObject:self.favorites forKey:FAVORITES_KEY];
 	[[NSUserDefaults standardUserDefaults] synchronize];
 
 	// Let any listeners know the list of favorites has changed
@@ -125,7 +125,7 @@ NSString* const FavoritesChangedNotification = @"Smoothies-FavoritesChanged";
 - (void)removeFromFavorites:(Recipe*)recipe
 {
 	[self.favorites removeObject:recipe.name];
-	[[NSUserDefaults standardUserDefaults] setObject:self.favorites forKey:@"Favorites"];
+	[[NSUserDefaults standardUserDefaults] setObject:self.favorites forKey:FAVORITES_KEY];
 	[[NSUserDefaults standardUserDefaults] synchronize];
 
 	// Let any listeners know the list of favorites has changed

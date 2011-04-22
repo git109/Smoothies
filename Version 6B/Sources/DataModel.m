@@ -115,14 +115,14 @@ static NSString* const FAVORITES_KEY = @"Favorites";
 - (void)addToFavorites:(Recipe*)recipe
 {
 	[self.favorites addObject:recipe.name];
-	[[NSUserDefaults standardUserDefaults] setObject:self.favorites forKey:@"Favorites"];
+	[[NSUserDefaults standardUserDefaults] setObject:self.favorites forKey:FAVORITES_KEY];
 	[[NSUserDefaults standardUserDefaults] synchronize];
 }
 
 - (void)removeFromFavorites:(Recipe*)recipe
 {
 	[self.favorites removeObject:recipe.name];
-	[[NSUserDefaults standardUserDefaults] setObject:self.favorites forKey:@"Favorites"];
+	[[NSUserDefaults standardUserDefaults] setObject:self.favorites forKey:FAVORITES_KEY];
 	[[NSUserDefaults standardUserDefaults] synchronize];
 }
 
