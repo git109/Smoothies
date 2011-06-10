@@ -133,7 +133,7 @@ NSString* const FavoritesChangedNotification = @"Smoothies-FavoritesChanged";
 {
 	// Create the favorites list object
 	NSArray* array = [[NSUserDefaults standardUserDefaults] objectForKey:FAVORITES_KEY];
-	self.favorites = [[NSMutableArray arrayWithCapacity:array.count] retain];
+	self.favorites = [NSMutableArray arrayWithCapacity:array.count];
 	for (NSNumber* number in array)
 	{
 		int recipeId = [number intValue];
