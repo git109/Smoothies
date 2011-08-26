@@ -1,4 +1,3 @@
-
 #import "SmoothiesAppDelegate.h"
 #import "DataModel.h"
 #import "SmoothiesViewController.h"
@@ -25,7 +24,7 @@
 - (BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary*)launchOptions
 {
 	// Create the Data Model object
-	self.dataModel = [[DataModel alloc] init];
+	self.dataModel = [[[DataModel alloc] init] autorelease];
 
 	// Tell the view controllers about the Data Model
 	self.smoothiesViewController.dataModel = self.dataModel;
